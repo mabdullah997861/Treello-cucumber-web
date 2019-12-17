@@ -8,9 +8,8 @@ How to Install
 	3	Run Maven Clean command
 	4	If needed please force udpate the project
 
-To Run
+To Run (Prefer to use maven command)
 --------------
-You can execute in multiple forms
 	1	Run the below maven command # maven clean install
 	2	Run the Runner file in src/test/java/runnderFile/RunnerFile.java
 	3	Run individual features from src/test/java/features
