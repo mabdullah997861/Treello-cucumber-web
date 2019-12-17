@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.359" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/MA/git/Trello-cucumber-web"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/MA/git/Trello-cucumber-web"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/rt/5kcqf30538l7fz5cxc6t3t_40000gq/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/MA/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7855860718183293141.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/MA/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/MA"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="MA"/>
+    <property name="java.class.path" value="/Users/vinodhbobba/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/MA/git/Trello-cucumber-web/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="feature" classname="runnerFile.RunnerFile" time="27.588">
+    <failure message="java.lang.AssertionError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError
+Caused by: java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+@TrelloSmokeTest @TrelloRegressionTests
+Feature: Trello Create Dashboard For the first time
+
+  Scenario Outline: Create DashBoard if there is no dashboards available to the user      # TrelloCreateDashBoard.feature:13
+    Given User is on Dashboard page with title "Create Your Board | Trello"
+    And User enters "Holiday planning" in the title
+    And User clicks next button
+    When User enters "<Things to do list1>" "<Things to do list2>" "<Things to do list3>"
+    And User clicks next button
+    And User clicks next button
+    And User clicks next button
+    And User gets on Trello Dashboard
+
+    Examples: 
+2019-12-16 13:15:18 INFO : Starting Scenario Create DashBoard if there is no dashboards available to the user
+2019-12-16 13:15:18 INFO : **************************************************************************************************
+In Environment class 1
+In Environment class 2
+In Environment class 1chrome
+2019-12-16 13:15:21 INFO : Loading the URL:https://trello.com/
+2019-12-16 13:15:24 INFO : Page is still loading
+2019-12-16 13:15:24 INFO : Page is still loading
+2019-12-16 13:15:24 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 13:15:25 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 13:15:25 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 13:15:27 INFO : Clicked on element: By.id: user
+2019-12-16 13:15:27 INFO : Clicked on element: By.id: login
+2019-12-16 13:15:27 INFO : Page is still loading
+2019-12-16 13:15:28 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 13:15:31 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 13:15:32 INFO : Page is still loading
+2019-12-16 13:15:32 INFO : Page is still loading
+2019-12-16 13:15:32 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 13:15:32 INFO : Clicked on element: By.id: login-submit
+
+  Background: Login with Existing User                                            # TrelloCreateDashBoard.feature:5
+    Given User is on Trello Home Page "https://trello.com/"                       # HomePage.user_is_on_Trello_Home_Page(String)
+    And User Clicks on Sign In Button                                             # HomePage.user_Clicks_on_Sign_In_Button()
+    And User on SignIn Page with title "Log in to Trello"                         # SignInPage.user_on_SignIn_Page_with_title(String)
+    And User enters credentials as "mabdullah997861@gmail.com" and "Password@123" # SignInPage.user_enters_credentials_as_and(String,String)
+    And User clicks Login button                                                  # SignInPage.user_clicks_Login_button()
+2019-12-16 13:15:37 INFO : Page is still loading
+2019-12-16 13:15:45 INFO : Page is still loading
+2019-12-16 13:15:45 INFO : Title is Boards | Trello
+2019-12-16 13:15:46 INFO : Ending Scenario Create DashBoard if there is no dashboards available to the user
+2019-12-16 13:15:46 INFO : **************************************************************************************************
+
+  @TrelloSmokeTest @TrelloRegressionTests
+  Scenario Outline: Create DashBoard if there is no dashboards available to the user      # TrelloCreateDashBoard.feature:27
+    Given User is on Dashboard page with title "Create Your Board | Trello"               # DashBoardPage.user_is_on_Dashboard_page_with_title(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)
+      	at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)
+      	at ✽.Given User is on Dashboard page with title "Create Your Board | Trello"(TrelloCreateDashBoard.feature:14)
+
+    And User enters "Holiday planning" in the title                                       # DashBoardPage.user_enters_in_the_title(String)
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    When User enters "<Things to do list1>" "<Things to do list2>" "<Things to do list3>" # DashBoardPage.user_enters(String,String,String)
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    And User gets on Trello Dashboard
+]]></system-out>
+    <system-err><![CDATA[Dec 16, 2019 1:15:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 9697
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 16, 2019 1:15:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="runnerFile.RunnerFile" time="23.806">
+    <failure message="java.lang.AssertionError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError
+Caused by: java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Feature: Trello Create User Login
+2019-12-16 13:15:46 INFO : Starting Scenario verify signin page
+2019-12-16 13:15:46 INFO : **************************************************************************************************
+2019-12-16 13:15:47 INFO : Loading the URL:https://trello.com/
+2019-12-16 13:15:51 INFO : Page is still loading
+2019-12-16 13:15:51 INFO : Page is still loading
+2019-12-16 13:15:51 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 13:15:53 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 13:15:53 INFO : Page is still loading
+2019-12-16 13:15:53 INFO : Page is still loading
+2019-12-16 13:15:54 INFO : Ending Scenario verify signin page
+2019-12-16 13:15:54 INFO : **************************************************************************************************
+
+  @TrelloSmokeTest @TrelloRegressionTests
+  Scenario: verify signin page                                    # TrelloCreateUser.feature:5
+    Given User is on Trello Home Page "https://trello.com/"       # HomePage.user_is_on_Trello_Home_Page(String)
+    When User Click on Create User Button                         # HomePage.user_Click_on_Create_User_Button()
+    Then User on SignIn Page with title "Create a Trello Account" # SignInPage.user_on_SignIn_Page_with_title(String)
+
+  Scenario Outline: Create User and Dashboard                                             # TrelloCreateUser.feature:11
+    Given User is on Trello Home Page "https://trello.com/"
+    And User Click on Create User Button
+    And User on Create User Page with title "Create a Trello Account"
+    And User enters "testtrello" and "@gmail.com" in the email text box
+    And User clicks continue button
+    And User enters Password "password"
+    And User clicks on Signup Button
+    And User is on Dashboard page with title "Create Your Board | Trello"
+    And User enters "Holiday planning" in the title
+    And User clicks next button
+    When User enters "<Things to do list1>" "<Things to do list2>" "<Things to do list3>"
+    And User clicks next button
+    And User clicks next button
+    And User clicks next button
+    Then User gets on Trello Dashboard
+
+    Examples: 
+2019-12-16 13:15:54 INFO : Starting Scenario Create User and Dashboard
+2019-12-16 13:15:54 INFO : **************************************************************************************************
+2019-12-16 13:15:55 INFO : Loading the URL:https://trello.com/
+2019-12-16 13:15:58 INFO : Page is still loading
+2019-12-16 13:15:58 INFO : Page is still loading
+2019-12-16 13:15:58 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 13:16:01 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 13:16:01 INFO : Clicked on element: By.id: email
+2019-12-16 13:16:01 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 13:16:01 INFO : Clicked on element: By.id: signup
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 13:16:07 INFO : Clicked on element: By.id: password
+2019-12-16 13:16:08 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 13:16:08 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 13:16:08 INFO : Page is still loading
+2019-12-16 13:16:08 INFO : Page is still loading
+2019-12-16 13:16:08 INFO : Title is Sign up - Log in with Atlassian account
+2019-12-16 13:16:09 INFO : Ending Scenario Create User and Dashboard
+2019-12-16 13:16:09 INFO : **************************************************************************************************
+
+  Scenario Outline: Create User and Dashboard                                             # TrelloCreateUser.feature:31
+    Given User is on Trello Home Page "https://trello.com/"                               # HomePage.user_is_on_Trello_Home_Page(String)
+    And User Click on Create User Button                                                  # HomePage.user_Click_on_Create_User_Button()
+    And User on Create User Page with title "Create a Trello Account"                     # CreateUserPage.user_on_Create_User_Page_with_title(String)
+    And User enters "testtrello" and "@gmail.com" in the email text box                   # CreateUserPage.user_enters_and_in_the_email_text_box(String,String)
+    And User clicks continue button                                                       # CreateUserPage.user_clicks_continue_button()
+    And User enters Password "password"                                                   # CreateUserPage.user_enters_Password(String)
+    And User clicks on Signup Button                                                      # CreateUserPage.user_clicks_on_Signup_Button()
+    And User is on Dashboard page with title "Create Your Board | Trello"                 # DashBoardPage.user_is_on_Dashboard_page_with_title(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)
+      	at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)
+      	at ✽.And User is on Dashboard page with title "Create Your Board | Trello"(TrelloCreateUser.feature:19)
+
+    And User enters "Holiday planning" in the title                                       # DashBoardPage.user_enters_in_the_title(String)
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    When User enters "<Things to do list1>" "<Things to do list2>" "<Things to do list3>" # DashBoardPage.user_enters(String,String,String)
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    And User clicks next button                                                           # DashBoardPage.user_clicks_next_button()
+    Then User gets on Trello Dashboard
+]]></system-out>
+    <system-err><![CDATA[Dec 16, 2019 1:15:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 46394
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 16, 2019 1:15:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Dec 16, 2019 1:15:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 45767
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 16, 2019 1:15:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

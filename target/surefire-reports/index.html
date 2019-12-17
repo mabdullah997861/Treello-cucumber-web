@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Sample_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Sample Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Sample_Test_Suite" class="navigator-link ">
+                    <span>Sample_Suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Sample_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Sample_Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Sample_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Sample_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Sample_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Sample_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sample_Test_Suite" class="hide-methods failed suite-Sample_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Sample_Test_Suite -->
+                      <a href="#" panel-name="suite-Sample_Test_Suite" class="show-methods failed suite-Sample_Test_Suite"> (show)</a> <!-- show-methods failed suite-Sample_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Sample_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sample_Test_Suite" title="runnerFile.RunnerFile" class="method navigator-link" hash-for-method="feature(Trello Create User Login)">feature(Trello Create User Login)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sample_Test_Suite" title="runnerFile.RunnerFile" class="method navigator-link" hash-for-method="feature(Trello Create Dashboard For the first time)">feature(Trello Create Dashboard For the first time)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Sample_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sample_Test_Suite" class="panel Sample_Test_Suite">
+          <div class="suite-Sample_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runnerFile.RunnerFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(Trello Create User Login)">
+                  </a> <!-- feature(Trello Create User Login) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Trello Create User Login)</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.AssertionError
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)
+	at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)
+	at ✽.And User is on Dashboard page with title &quot;Create Your Board | Trello&quot;(TrelloCreateUser.feature:19)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(Trello Create Dashboard For the first time)">
+                  </a> <!-- feature(Trello Create Dashboard For the first time) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Trello Create Dashboard For the first time)</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.AssertionError
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)
+	at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)
+	at ✽.Given User is on Dashboard page with title &quot;Create Your Board | Trello&quot;(TrelloCreateDashBoard.feature:14)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sample_Test_Suite-class-failed -->
+        </div> <!-- panel Sample_Test_Suite -->
+        <div panel-name="test-xml-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/MA/git/Trello-cucumber-web/suites/Sample_Suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Sample Test Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Sample Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runnerFile.RunnerFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sample Test Cases --&gt;
+  &lt;test name=&quot;Sample Test Cases(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runnerFile.RunnerFile&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUpClass&quot;/&gt;
+          &lt;include name=&quot;feature&quot; invocation-numbers=&quot;0 1&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- runnerFile.RunnerFile --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sample Test Cases(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Sample Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sample Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sample Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sample Test Cases(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sample Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sample Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sample_Test_Suite');
+function tableData_Sample_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'runnerFile.RunnerFile')
+data.setCell(0, 3, 27526);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feature')
+data.setCell(1, 2, 'runnerFile.RunnerFile')
+data.setCell(1, 3, 23814);
+window.suiteTableData['Sample_Test_Suite']= { tableData: data, tableDiv: 'times-div-Sample_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-Sample_Test_Suite">
+              </div> <!-- times-div-Sample_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sample Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature(Trello Create User Login)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting Scenario verify signin page<br/></span>
+                <span class="reporter-method-output">**************************************************************************************************<br/></span>
+                <span class="reporter-method-output">Ending Scenario verify signin page<br/></span>
+                <span class="reporter-method-output">**************************************************************************************************<br/></span>
+                <span class="reporter-method-output">Starting Scenario Create User and Dashboard<br/></span>
+                <span class="reporter-method-output">**************************************************************************************************<br/></span>
+                <span class="reporter-method-output">Ending Scenario Create User and Dashboard<br/></span>
+                <span class="reporter-method-output">**************************************************************************************************<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature(Trello Create Dashboard For the first time)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting Scenario Create DashBoard if there is no dashboards available to the user<br/></span>
+                <span class="reporter-method-output">**************************************************************************************************<br/></span>
+                <span class="reporter-method-output">Ending Scenario Create DashBoard if there is no dashboards available to the user<br/></span>
+                <span class="reporter-method-output">**************************************************************************************************<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sample_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runnerFile.RunnerFile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature(Trello Create Dashboard For the first time)</span>
+                <span class="method-start">308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature(Trello Create User Login)</span>
+                <span class="method-start">27890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">51707 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

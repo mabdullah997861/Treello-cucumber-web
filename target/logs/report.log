@@ -1,0 +1,847 @@
+2019-12-15 22:20:01 INFO : Starting Scenario Login with invalid user credentials
+2019-12-15 22:20:01 INFO : **************************************************************************************************
+2019-12-15 22:20:42 INFO : Starting Scenario Login with invalid user credentials
+2019-12-15 22:20:42 INFO : **************************************************************************************************
+2019-12-15 22:20:48 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:20:50 INFO : Page is still loading
+2019-12-15 22:20:50 INFO : Page is still loading
+2019-12-15 22:20:50 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:20:53 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:20:53 INFO : Ending Scenario Login with invalid user credentials
+2019-12-15 22:20:53 INFO : **************************************************************************************************
+2019-12-15 22:27:23 INFO : Starting Scenario Login with invalid user credentials
+2019-12-15 22:27:23 INFO : **************************************************************************************************
+2019-12-15 22:27:25 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:27:28 INFO : Page is still loading
+2019-12-15 22:27:28 INFO : Page is still loading
+2019-12-15 22:27:28 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:27:30 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:27:31 INFO : Ending Scenario Login with invalid user credentials
+2019-12-15 22:27:31 INFO : **************************************************************************************************
+2019-12-15 22:28:07 INFO : Starting Scenario verify signin page
+2019-12-15 22:28:07 INFO : **************************************************************************************************
+2019-12-15 22:28:09 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:28:12 INFO : Page is still loading
+2019-12-15 22:28:12 INFO : Page is still loading
+2019-12-15 22:28:12 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:28:14 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:28:15 INFO : Ending Scenario verify signin page
+2019-12-15 22:28:15 INFO : **************************************************************************************************
+2019-12-15 22:28:15 INFO : Starting Scenario Create User
+2019-12-15 22:28:15 INFO : **************************************************************************************************
+2019-12-15 22:28:16 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:28:18 INFO : Page is still loading
+2019-12-15 22:28:18 INFO : Page is still loading
+2019-12-15 22:28:18 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:28:19 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:28:19 INFO : Ending Scenario Create User
+2019-12-15 22:28:19 INFO : **************************************************************************************************
+2019-12-15 22:37:56 INFO : Starting Scenario verify signin page
+2019-12-15 22:37:56 INFO : **************************************************************************************************
+2019-12-15 22:37:58 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:38:01 INFO : Page is still loading
+2019-12-15 22:38:01 INFO : Page is still loading
+2019-12-15 22:38:01 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:38:01 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:38:02 INFO : Ending Scenario verify signin page
+2019-12-15 22:38:02 INFO : **************************************************************************************************
+2019-12-15 22:38:02 INFO : Starting Scenario Create User
+2019-12-15 22:38:02 INFO : **************************************************************************************************
+2019-12-15 22:38:03 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:38:05 INFO : Page is still loading
+2019-12-15 22:38:05 INFO : Page is still loading
+2019-12-15 22:38:05 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:38:11 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:38:11 INFO : Ending Scenario Create User
+2019-12-15 22:38:11 INFO : **************************************************************************************************
+2019-12-15 22:40:36 INFO : Starting Scenario verify signin page
+2019-12-15 22:40:36 INFO : **************************************************************************************************
+2019-12-15 22:40:39 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:40:42 INFO : Page is still loading
+2019-12-15 22:40:42 INFO : Page is still loading
+2019-12-15 22:40:42 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:40:42 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:40:42 INFO : Page is still loading
+2019-12-15 22:40:44 INFO : Page is still loading
+2019-12-15 22:40:44 INFO : Ending Scenario verify signin page
+2019-12-15 22:40:44 INFO : **************************************************************************************************
+2019-12-15 22:40:44 INFO : Starting Scenario Create User
+2019-12-15 22:40:44 INFO : **************************************************************************************************
+2019-12-15 22:40:46 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:40:48 INFO : Page is still loading
+2019-12-15 22:40:48 INFO : Page is still loading
+2019-12-15 22:40:48 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:40:50 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:40:50 INFO : Page is still loading
+2019-12-15 22:40:50 INFO : Page is still loading
+2019-12-15 22:40:50 INFO : Page is still loading
+2019-12-15 22:40:50 INFO : Page is still loading
+2019-12-15 22:40:50 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-15 22:40:50 INFO : Clicked on element: By.id: email
+2019-12-15 22:41:21 INFO : Ending Scenario Create User
+2019-12-15 22:41:21 INFO : **************************************************************************************************
+2019-12-15 22:45:10 INFO : Starting Scenario verify signin page
+2019-12-15 22:45:10 INFO : **************************************************************************************************
+2019-12-15 22:45:13 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:45:15 INFO : Page is still loading
+2019-12-15 22:45:15 INFO : Page is still loading
+2019-12-15 22:45:15 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:45:18 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:45:18 INFO : Page is still loading
+2019-12-15 22:45:18 INFO : Page is still loading
+2019-12-15 22:45:18 INFO : Ending Scenario verify signin page
+2019-12-15 22:45:18 INFO : **************************************************************************************************
+2019-12-15 22:45:18 INFO : Starting Scenario Create User
+2019-12-15 22:45:18 INFO : **************************************************************************************************
+2019-12-15 22:45:20 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:45:22 INFO : Page is still loading
+2019-12-15 22:45:22 INFO : Page is still loading
+2019-12-15 22:45:22 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:45:24 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:45:24 INFO : Page is still loading
+2019-12-15 22:45:24 INFO : Page is still loading
+2019-12-15 22:45:24 INFO : Page is still loading
+2019-12-15 22:45:24 INFO : Page is still loading
+2019-12-15 22:45:24 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-15 22:45:24 INFO : Clicked on element: By.id: email
+2019-12-15 22:45:24 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-15 22:45:25 INFO : Clicked on element: By.id: signup
+2019-12-15 22:45:25 INFO : Ending Scenario Create User
+2019-12-15 22:45:25 INFO : **************************************************************************************************
+2019-12-15 22:53:43 INFO : Starting Scenario verify signin page
+2019-12-15 22:53:43 INFO : **************************************************************************************************
+2019-12-15 22:53:46 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:53:48 INFO : Page is still loading
+2019-12-15 22:53:48 INFO : Page is still loading
+2019-12-15 22:53:48 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:53:51 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:53:51 INFO : Page is still loading
+2019-12-15 22:53:51 INFO : Page is still loading
+2019-12-15 22:53:51 INFO : Ending Scenario verify signin page
+2019-12-15 22:53:51 INFO : **************************************************************************************************
+2019-12-15 22:53:51 INFO : Starting Scenario Create User
+2019-12-15 22:53:51 INFO : **************************************************************************************************
+2019-12-15 22:53:53 INFO : Loading the URL:https://trello.com/
+2019-12-15 22:53:55 INFO : Page is still loading
+2019-12-15 22:53:55 INFO : Page is still loading
+2019-12-15 22:53:55 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 22:53:55 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 22:53:55 INFO : Page is still loading
+2019-12-15 22:53:57 INFO : Page is still loading
+2019-12-15 22:53:58 INFO : Ending Scenario Create User
+2019-12-15 22:53:58 INFO : **************************************************************************************************
+2019-12-15 23:04:01 INFO : Starting Scenario verify signin page
+2019-12-15 23:04:01 INFO : **************************************************************************************************
+2019-12-15 23:04:03 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:04:06 INFO : Page is still loading
+2019-12-15 23:04:06 INFO : Page is still loading
+2019-12-15 23:04:06 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:04:09 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:04:09 INFO : Page is still loading
+2019-12-15 23:04:09 INFO : Page is still loading
+2019-12-15 23:04:09 INFO : Ending Scenario verify signin page
+2019-12-15 23:04:09 INFO : **************************************************************************************************
+2019-12-15 23:04:09 INFO : Starting Scenario Create User
+2019-12-15 23:04:09 INFO : **************************************************************************************************
+2019-12-15 23:04:11 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:04:14 INFO : Page is still loading
+2019-12-15 23:04:14 INFO : Page is still loading
+2019-12-15 23:04:14 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:04:17 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:04:17 INFO : Page is still loading
+2019-12-15 23:04:17 INFO : Page is still loading
+2019-12-15 23:04:17 INFO : Page is still loading
+2019-12-15 23:04:17 INFO : Page is still loading
+2019-12-15 23:04:17 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-15 23:04:17 INFO : Clicked on element: By.id: email
+2019-12-15 23:04:18 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-15 23:04:18 INFO : Clicked on element: By.id: signup
+2019-12-15 23:04:18 INFO : Page is still loading
+2019-12-15 23:04:18 INFO : Page is still loading
+2019-12-15 23:04:18 INFO : Waiting until the elements specified by By.id: name are present
+2019-12-15 23:05:20 INFO : Ending Scenario Create User
+2019-12-15 23:05:20 INFO : **************************************************************************************************
+2019-12-15 23:50:20 INFO : Starting Scenario verify signin page
+2019-12-15 23:50:20 INFO : **************************************************************************************************
+2019-12-15 23:50:24 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:50:26 INFO : Page is still loading
+2019-12-15 23:50:26 INFO : Page is still loading
+2019-12-15 23:50:26 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:50:29 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:50:29 INFO : Page is still loading
+2019-12-15 23:50:29 INFO : Page is still loading
+2019-12-15 23:50:29 INFO : Ending Scenario verify signin page
+2019-12-15 23:50:29 INFO : **************************************************************************************************
+2019-12-15 23:50:29 INFO : Starting Scenario Create User
+2019-12-15 23:50:29 INFO : **************************************************************************************************
+2019-12-15 23:50:30 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:50:33 INFO : Page is still loading
+2019-12-15 23:50:33 INFO : Page is still loading
+2019-12-15 23:50:33 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:50:34 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:50:35 INFO : Page is still loading
+2019-12-15 23:50:35 INFO : Page is still loading
+2019-12-15 23:50:35 INFO : Page is still loading
+2019-12-15 23:50:35 INFO : Page is still loading
+2019-12-15 23:50:35 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-15 23:50:35 INFO : Clicked on element: By.id: email
+2019-12-15 23:50:35 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-15 23:50:35 INFO : Clicked on element: By.id: signup
+2019-12-15 23:50:35 INFO : Page is still loading
+2019-12-15 23:50:35 INFO : Page is still loading
+2019-12-15 23:50:35 INFO : Waiting until the elements specified by By.id: name are present
+2019-12-15 23:51:37 INFO : Ending Scenario Create User
+2019-12-15 23:51:37 INFO : **************************************************************************************************
+2019-12-15 23:56:22 INFO : Starting Scenario verify signin page
+2019-12-15 23:56:22 INFO : **************************************************************************************************
+2019-12-15 23:56:24 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:56:27 INFO : Page is still loading
+2019-12-15 23:56:27 INFO : Page is still loading
+2019-12-15 23:56:27 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:56:29 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:56:29 INFO : Page is still loading
+2019-12-15 23:56:29 INFO : Page is still loading
+2019-12-15 23:56:29 INFO : Ending Scenario verify signin page
+2019-12-15 23:56:29 INFO : **************************************************************************************************
+2019-12-15 23:56:29 INFO : Starting Scenario Create User
+2019-12-15 23:56:29 INFO : **************************************************************************************************
+2019-12-15 23:56:31 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:56:33 INFO : Page is still loading
+2019-12-15 23:56:33 INFO : Page is still loading
+2019-12-15 23:56:33 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:56:35 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:56:35 INFO : Page is still loading
+2019-12-15 23:56:35 INFO : Page is still loading
+2019-12-15 23:56:35 INFO : Page is still loading
+2019-12-15 23:56:35 INFO : Page is still loading
+2019-12-15 23:56:35 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-15 23:56:35 INFO : Clicked on element: By.id: email
+2019-12-15 23:56:36 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-15 23:56:36 INFO : Clicked on element: By.id: signup
+2019-12-15 23:56:36 INFO : Page is still loading
+2019-12-15 23:56:36 INFO : Page is still loading
+2019-12-15 23:56:36 INFO : Waiting until the elements specified by By.id: name are present
+2019-12-15 23:57:37 INFO : Ending Scenario Create User
+2019-12-15 23:57:37 INFO : **************************************************************************************************
+2019-12-15 23:59:22 INFO : Starting Scenario verify signin page
+2019-12-15 23:59:22 INFO : **************************************************************************************************
+2019-12-15 23:59:24 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:59:27 INFO : Page is still loading
+2019-12-15 23:59:27 INFO : Page is still loading
+2019-12-15 23:59:27 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:59:29 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:59:29 INFO : Page is still loading
+2019-12-15 23:59:29 INFO : Page is still loading
+2019-12-15 23:59:30 INFO : Ending Scenario verify signin page
+2019-12-15 23:59:30 INFO : **************************************************************************************************
+2019-12-15 23:59:30 INFO : Starting Scenario Create User
+2019-12-15 23:59:30 INFO : **************************************************************************************************
+2019-12-15 23:59:31 INFO : Loading the URL:https://trello.com/
+2019-12-15 23:59:33 INFO : Page is still loading
+2019-12-15 23:59:33 INFO : Page is still loading
+2019-12-15 23:59:33 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-15 23:59:35 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-15 23:59:35 INFO : Page is still loading
+2019-12-15 23:59:35 INFO : Page is still loading
+2019-12-15 23:59:35 INFO : Page is still loading
+2019-12-15 23:59:35 INFO : Page is still loading
+2019-12-15 23:59:35 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-15 23:59:36 INFO : Clicked on element: By.id: email
+2019-12-15 23:59:36 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-15 23:59:36 INFO : Clicked on element: By.id: signup
+2019-12-15 23:59:36 INFO : Page is still loading
+2019-12-15 23:59:36 INFO : Page is still loading
+2019-12-15 23:59:36 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-15 23:59:42 INFO : Clicked on element: By.id: password
+2019-12-15 23:59:42 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 00:00:44 INFO : Ending Scenario Create User
+2019-12-16 00:00:44 INFO : **************************************************************************************************
+2019-12-16 00:03:38 INFO : Starting Scenario verify signin page
+2019-12-16 00:03:38 INFO : **************************************************************************************************
+2019-12-16 00:03:40 INFO : Loading the URL:https://trello.com/
+2019-12-16 00:03:42 INFO : Page is still loading
+2019-12-16 00:03:42 INFO : Page is still loading
+2019-12-16 00:03:42 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 00:03:44 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 00:03:44 INFO : Page is still loading
+2019-12-16 00:03:44 INFO : Page is still loading
+2019-12-16 00:03:45 INFO : Ending Scenario verify signin page
+2019-12-16 00:03:45 INFO : **************************************************************************************************
+2019-12-16 00:03:45 INFO : Starting Scenario Create User
+2019-12-16 00:03:45 INFO : **************************************************************************************************
+2019-12-16 00:03:46 INFO : Loading the URL:https://trello.com/
+2019-12-16 00:03:48 INFO : Page is still loading
+2019-12-16 00:03:48 INFO : Page is still loading
+2019-12-16 00:03:48 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 00:03:50 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 00:03:50 INFO : Page is still loading
+2019-12-16 00:03:50 INFO : Page is still loading
+2019-12-16 00:03:50 INFO : Page is still loading
+2019-12-16 00:03:50 INFO : Page is still loading
+2019-12-16 00:03:50 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 00:03:50 INFO : Clicked on element: By.id: email
+2019-12-16 00:03:51 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 00:03:51 INFO : Clicked on element: By.id: signup
+2019-12-16 00:03:51 INFO : Page is still loading
+2019-12-16 00:03:51 INFO : Page is still loading
+2019-12-16 00:03:51 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 00:03:57 INFO : Clicked on element: By.id: password
+2019-12-16 00:03:57 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 00:03:57 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 00:03:58 INFO : Ending Scenario Create User
+2019-12-16 00:03:58 INFO : **************************************************************************************************
+2019-12-16 11:13:39 INFO : Starting Scenario Create DashBoard
+2019-12-16 11:13:39 INFO : **************************************************************************************************
+2019-12-16 11:13:42 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:13:42 INFO : Page is still loading
+2019-12-16 11:13:42 INFO : Page is still loading
+2019-12-16 11:13:42 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:14:34 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:14:34 INFO : Page is still loading
+2019-12-16 11:14:34 INFO : Page is still loading
+2019-12-16 11:14:34 INFO : Page is still loading
+2019-12-16 11:14:34 INFO : Page is still loading
+2019-12-16 11:14:34 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 11:14:34 INFO : Clicked on element: By.id: email
+2019-12-16 11:14:34 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 11:14:34 INFO : Clicked on element: By.id: signup
+2019-12-16 11:14:34 INFO : Page is still loading
+2019-12-16 11:14:34 INFO : Page is still loading
+2019-12-16 11:14:34 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 11:14:40 INFO : Clicked on element: By.id: password
+2019-12-16 11:14:41 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 11:14:41 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 11:14:41 INFO : Ending Scenario Create DashBoard
+2019-12-16 11:14:41 INFO : **************************************************************************************************
+2019-12-16 11:14:41 INFO : Starting Scenario Create DashBoard
+2019-12-16 11:14:41 INFO : **************************************************************************************************
+2019-12-16 11:14:43 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:14:46 INFO : Page is still loading
+2019-12-16 11:14:46 INFO : Page is still loading
+2019-12-16 11:14:46 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:14:48 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:14:48 INFO : Page is still loading
+2019-12-16 11:14:48 INFO : Page is still loading
+2019-12-16 11:14:48 INFO : Page is still loading
+2019-12-16 11:14:48 INFO : Page is still loading
+2019-12-16 11:14:48 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 11:14:48 INFO : Clicked on element: By.id: email
+2019-12-16 11:14:48 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 11:14:49 INFO : Clicked on element: By.id: signup
+2019-12-16 11:14:49 INFO : Page is still loading
+2019-12-16 11:14:49 INFO : Page is still loading
+2019-12-16 11:14:49 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 11:14:55 INFO : Clicked on element: By.id: password
+2019-12-16 11:14:55 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 11:14:55 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 11:14:55 INFO : Ending Scenario Create DashBoard
+2019-12-16 11:14:55 INFO : **************************************************************************************************
+2019-12-16 11:14:56 INFO : Starting Scenario Create DashBoard
+2019-12-16 11:14:56 INFO : **************************************************************************************************
+2019-12-16 11:14:57 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:15:00 INFO : Page is still loading
+2019-12-16 11:15:00 INFO : Page is still loading
+2019-12-16 11:15:00 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:15:02 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:15:02 INFO : Page is still loading
+2019-12-16 11:15:02 INFO : Page is still loading
+2019-12-16 11:15:02 INFO : Page is still loading
+2019-12-16 11:15:02 INFO : Page is still loading
+2019-12-16 11:15:02 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 11:15:03 INFO : Clicked on element: By.id: email
+2019-12-16 11:15:03 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 11:15:03 INFO : Clicked on element: By.id: signup
+2019-12-16 11:15:03 INFO : Page is still loading
+2019-12-16 11:15:03 INFO : Page is still loading
+2019-12-16 11:15:03 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 11:15:09 INFO : Clicked on element: By.id: password
+2019-12-16 11:15:10 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 11:15:10 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 11:15:10 INFO : Ending Scenario Create DashBoard
+2019-12-16 11:15:10 INFO : **************************************************************************************************
+2019-12-16 11:15:10 INFO : Starting Scenario verify signin page
+2019-12-16 11:15:10 INFO : **************************************************************************************************
+2019-12-16 11:15:12 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:15:16 INFO : Page is still loading
+2019-12-16 11:15:16 INFO : Page is still loading
+2019-12-16 11:15:16 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:15:18 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:15:18 INFO : Page is still loading
+2019-12-16 11:15:18 INFO : Page is still loading
+2019-12-16 11:15:19 INFO : Ending Scenario verify signin page
+2019-12-16 11:15:19 INFO : **************************************************************************************************
+2019-12-16 11:15:19 INFO : Starting Scenario Create User
+2019-12-16 11:15:19 INFO : **************************************************************************************************
+2019-12-16 11:15:20 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:15:26 INFO : Page is still loading
+2019-12-16 11:15:26 INFO : Page is still loading
+2019-12-16 11:15:26 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:15:28 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:15:28 INFO : Page is still loading
+2019-12-16 11:15:29 INFO : Page is still loading
+2019-12-16 11:15:29 INFO : Page is still loading
+2019-12-16 11:15:29 INFO : Page is still loading
+2019-12-16 11:15:29 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 11:15:29 INFO : Clicked on element: By.id: email
+2019-12-16 11:15:29 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 11:15:29 INFO : Clicked on element: By.id: signup
+2019-12-16 11:15:29 INFO : Page is still loading
+2019-12-16 11:15:29 INFO : Page is still loading
+2019-12-16 11:15:29 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 11:15:36 INFO : Clicked on element: By.id: password
+2019-12-16 11:15:36 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 11:15:36 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 11:15:37 INFO : Ending Scenario Create User
+2019-12-16 11:15:37 INFO : **************************************************************************************************
+2019-12-16 11:49:27 INFO : Starting Scenario Create DashBoard
+2019-12-16 11:49:27 INFO : **************************************************************************************************
+2019-12-16 11:49:29 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:49:33 INFO : Page is still loading
+2019-12-16 11:49:33 INFO : Page is still loading
+2019-12-16 11:49:33 INFO : Ending Scenario Create DashBoard
+2019-12-16 11:49:33 INFO : **************************************************************************************************
+2019-12-16 11:49:33 INFO : Starting Scenario Create DashBoard
+2019-12-16 11:49:33 INFO : **************************************************************************************************
+2019-12-16 11:49:34 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:49:37 INFO : Page is still loading
+2019-12-16 11:49:37 INFO : Page is still loading
+2019-12-16 11:49:38 INFO : Ending Scenario Create DashBoard
+2019-12-16 11:49:38 INFO : **************************************************************************************************
+2019-12-16 11:49:38 INFO : Starting Scenario Create DashBoard
+2019-12-16 11:49:38 INFO : **************************************************************************************************
+2019-12-16 11:49:39 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:49:42 INFO : Page is still loading
+2019-12-16 11:49:42 INFO : Page is still loading
+2019-12-16 11:49:42 INFO : Ending Scenario Create DashBoard
+2019-12-16 11:49:42 INFO : **************************************************************************************************
+2019-12-16 11:49:42 INFO : Starting Scenario verify signin page
+2019-12-16 11:49:42 INFO : **************************************************************************************************
+2019-12-16 11:49:44 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:49:47 INFO : Page is still loading
+2019-12-16 11:49:47 INFO : Page is still loading
+2019-12-16 11:49:47 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:49:49 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:49:49 INFO : Page is still loading
+2019-12-16 11:49:49 INFO : Page is still loading
+2019-12-16 11:49:49 INFO : Ending Scenario verify signin page
+2019-12-16 11:49:49 INFO : **************************************************************************************************
+2019-12-16 11:49:49 INFO : Starting Scenario Create User
+2019-12-16 11:49:49 INFO : **************************************************************************************************
+2019-12-16 11:49:51 INFO : Loading the URL:https://trello.com/
+2019-12-16 11:49:54 INFO : Page is still loading
+2019-12-16 11:49:54 INFO : Page is still loading
+2019-12-16 11:49:54 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 11:49:56 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 11:49:56 INFO : Page is still loading
+2019-12-16 11:49:56 INFO : Page is still loading
+2019-12-16 11:49:56 INFO : Page is still loading
+2019-12-16 11:49:57 INFO : Page is still loading
+2019-12-16 11:49:57 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 11:49:57 INFO : Clicked on element: By.id: email
+2019-12-16 11:49:57 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 11:49:57 INFO : Clicked on element: By.id: signup
+2019-12-16 11:49:57 INFO : Page is still loading
+2019-12-16 11:49:57 INFO : Page is still loading
+2019-12-16 11:49:57 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 11:50:03 INFO : Clicked on element: By.id: password
+2019-12-16 11:50:03 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 11:50:04 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 11:50:04 INFO : Ending Scenario Create User
+2019-12-16 11:50:04 INFO : **************************************************************************************************
+2019-12-16 12:13:35 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:13:35 INFO : **************************************************************************************************
+2019-12-16 12:13:37 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:13:41 INFO : Page is still loading
+2019-12-16 12:13:41 INFO : Page is still loading
+2019-12-16 12:13:41 INFO : Waiting until the elements specified by null are present
+2019-12-16 12:14:43 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:14:43 INFO : **************************************************************************************************
+2019-12-16 12:14:43 INFO : Starting Scenario verify signin page
+2019-12-16 12:14:43 INFO : **************************************************************************************************
+2019-12-16 12:14:44 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:14:48 INFO : Page is still loading
+2019-12-16 12:14:48 INFO : Page is still loading
+2019-12-16 12:14:48 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 12:14:50 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 12:14:50 INFO : Page is still loading
+2019-12-16 12:14:50 INFO : Page is still loading
+2019-12-16 12:14:50 INFO : Ending Scenario verify signin page
+2019-12-16 12:14:50 INFO : **************************************************************************************************
+2019-12-16 12:14:50 INFO : Starting Scenario Create User
+2019-12-16 12:14:50 INFO : **************************************************************************************************
+2019-12-16 12:14:52 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:14:55 INFO : Page is still loading
+2019-12-16 12:14:55 INFO : Page is still loading
+2019-12-16 12:14:55 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 12:14:58 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 12:14:58 INFO : Page is still loading
+2019-12-16 12:14:58 INFO : Page is still loading
+2019-12-16 12:14:58 INFO : Page is still loading
+2019-12-16 12:14:58 INFO : Page is still loading
+2019-12-16 12:14:58 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 12:14:58 INFO : Clicked on element: By.id: email
+2019-12-16 12:14:58 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 12:14:58 INFO : Clicked on element: By.id: signup
+2019-12-16 12:14:58 INFO : Page is still loading
+2019-12-16 12:14:58 INFO : Page is still loading
+2019-12-16 12:14:58 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:15:05 INFO : Clicked on element: By.id: password
+2019-12-16 12:15:06 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 12:15:06 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 12:15:06 INFO : Ending Scenario Create User
+2019-12-16 12:15:06 INFO : **************************************************************************************************
+2019-12-16 12:39:20 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:39:20 INFO : **************************************************************************************************
+2019-12-16 12:39:22 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:39:27 INFO : Page is still loading
+2019-12-16 12:39:27 INFO : Page is still loading
+2019-12-16 12:39:27 INFO : Waiting until the elements specified by null are present
+2019-12-16 12:41:34 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:41:34 INFO : **************************************************************************************************
+2019-12-16 12:41:36 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:41:39 INFO : Page is still loading
+2019-12-16 12:41:39 INFO : Page is still loading
+2019-12-16 12:41:39 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:41:39 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:41:39 INFO : Page is still loading
+2019-12-16 12:41:42 INFO : Page is still loading
+2019-12-16 12:41:42 INFO : Page is still loading
+2019-12-16 12:41:42 INFO : Page is still loading
+2019-12-16 12:41:42 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:41:42 INFO : Clicked on element: By.id: user
+2019-12-16 12:41:42 INFO : Clicked on element: By.id: login
+2019-12-16 12:41:42 INFO : Page is still loading
+2019-12-16 12:41:43 INFO : Page is still loading
+2019-12-16 12:41:46 INFO : Page is still loading
+2019-12-16 12:41:47 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:41:47 INFO : Page is still loading
+2019-12-16 12:41:47 INFO : Page is still loading
+2019-12-16 12:41:47 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:41:47 INFO : Waiting until the elements specified by By.id: login are present
+2019-12-16 12:42:49 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:42:49 INFO : **************************************************************************************************
+2019-12-16 12:44:49 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:44:49 INFO : **************************************************************************************************
+2019-12-16 12:44:51 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:44:55 INFO : Page is still loading
+2019-12-16 12:44:55 INFO : Page is still loading
+2019-12-16 12:44:55 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:44:55 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:44:55 INFO : Page is still loading
+2019-12-16 12:44:57 INFO : Page is still loading
+2019-12-16 12:44:57 INFO : Page is still loading
+2019-12-16 12:44:57 INFO : Page is still loading
+2019-12-16 12:44:57 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:44:57 INFO : Clicked on element: By.id: user
+2019-12-16 12:44:58 INFO : Clicked on element: By.id: login
+2019-12-16 12:44:58 INFO : Page is still loading
+2019-12-16 12:44:58 INFO : Page is still loading
+2019-12-16 12:45:01 INFO : Page is still loading
+2019-12-16 12:45:02 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:45:02 INFO : Page is still loading
+2019-12-16 12:45:02 INFO : Page is still loading
+2019-12-16 12:45:02 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:45:02 INFO : Page is still loading
+2019-12-16 12:45:02 INFO : Page is still loading
+2019-12-16 12:45:02 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:45:34 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:45:34 INFO : **************************************************************************************************
+2019-12-16 12:46:39 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:46:39 INFO : **************************************************************************************************
+2019-12-16 12:46:42 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:46:45 INFO : Page is still loading
+2019-12-16 12:46:45 INFO : Page is still loading
+2019-12-16 12:46:45 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:46:45 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:46:45 INFO : Page is still loading
+2019-12-16 12:46:47 INFO : Page is still loading
+2019-12-16 12:46:47 INFO : Page is still loading
+2019-12-16 12:46:47 INFO : Page is still loading
+2019-12-16 12:46:47 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:46:48 INFO : Clicked on element: By.id: user
+2019-12-16 12:46:48 INFO : Clicked on element: By.id: login
+2019-12-16 12:46:48 INFO : Page is still loading
+2019-12-16 12:46:49 INFO : Page is still loading
+2019-12-16 12:46:52 INFO : Page is still loading
+2019-12-16 12:46:52 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:46:52 INFO : Page is still loading
+2019-12-16 12:46:52 INFO : Page is still loading
+2019-12-16 12:46:52 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:46:53 INFO : Page is still loading
+2019-12-16 12:46:53 INFO : Page is still loading
+2019-12-16 12:46:53 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:46:53 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:46:53 INFO : Page is still loading
+2019-12-16 12:46:53 INFO : Page is still loading
+2019-12-16 12:46:53 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:46:53 INFO : Clicked on element: By.id: password
+2019-12-16 12:46:53 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 12:47:55 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:47:55 INFO : **************************************************************************************************
+2019-12-16 12:49:44 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:49:44 INFO : **************************************************************************************************
+2019-12-16 12:49:46 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:49:50 INFO : Page is still loading
+2019-12-16 12:49:50 INFO : Page is still loading
+2019-12-16 12:49:50 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:49:52 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:49:52 INFO : Page is still loading
+2019-12-16 12:49:52 INFO : Page is still loading
+2019-12-16 12:49:52 INFO : Page is still loading
+2019-12-16 12:49:52 INFO : Page is still loading
+2019-12-16 12:49:52 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:49:52 INFO : Clicked on element: By.id: user
+2019-12-16 12:49:53 INFO : Clicked on element: By.id: login
+2019-12-16 12:49:53 INFO : Page is still loading
+2019-12-16 12:49:53 INFO : Page is still loading
+2019-12-16 12:49:57 INFO : Page is still loading
+2019-12-16 12:49:57 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:49:57 INFO : Page is still loading
+2019-12-16 12:49:58 INFO : Page is still loading
+2019-12-16 12:49:58 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:49:58 INFO : Page is still loading
+2019-12-16 12:49:58 INFO : Page is still loading
+2019-12-16 12:49:58 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:49:58 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:49:58 INFO : Page is still loading
+2019-12-16 12:49:58 INFO : Page is still loading
+2019-12-16 12:49:59 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:49:59 INFO : **************************************************************************************************
+2019-12-16 12:51:52 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:51:52 INFO : **************************************************************************************************
+2019-12-16 12:51:55 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:51:58 INFO : Page is still loading
+2019-12-16 12:51:58 INFO : Page is still loading
+2019-12-16 12:51:58 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:51:58 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:51:58 INFO : Page is still loading
+2019-12-16 12:52:00 INFO : Page is still loading
+2019-12-16 12:52:00 INFO : Page is still loading
+2019-12-16 12:52:00 INFO : Page is still loading
+2019-12-16 12:52:00 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:52:01 INFO : Clicked on element: By.id: user
+2019-12-16 12:52:01 INFO : Clicked on element: By.id: login
+2019-12-16 12:52:01 INFO : Page is still loading
+2019-12-16 12:52:02 INFO : Page is still loading
+2019-12-16 12:52:05 INFO : Page is still loading
+2019-12-16 12:52:05 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:52:05 INFO : Page is still loading
+2019-12-16 12:52:05 INFO : Page is still loading
+2019-12-16 12:52:05 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:52:06 INFO : Page is still loading
+2019-12-16 12:52:06 INFO : Page is still loading
+2019-12-16 12:52:06 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:52:06 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:52:06 INFO : Page is still loading
+2019-12-16 12:52:06 INFO : Page is still loading
+2019-12-16 12:52:07 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:52:07 INFO : **************************************************************************************************
+2019-12-16 12:53:24 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:53:24 INFO : **************************************************************************************************
+2019-12-16 12:53:26 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:53:30 INFO : Page is still loading
+2019-12-16 12:53:30 INFO : Page is still loading
+2019-12-16 12:53:30 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:53:30 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:53:30 INFO : Page is still loading
+2019-12-16 12:53:32 INFO : Page is still loading
+2019-12-16 12:53:32 INFO : Page is still loading
+2019-12-16 12:53:32 INFO : Page is still loading
+2019-12-16 12:53:32 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:53:33 INFO : Clicked on element: By.id: user
+2019-12-16 12:53:33 INFO : Clicked on element: By.id: login
+2019-12-16 12:53:33 INFO : Page is still loading
+2019-12-16 12:53:33 INFO : Page is still loading
+2019-12-16 12:53:37 INFO : Page is still loading
+2019-12-16 12:53:37 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:53:37 INFO : Page is still loading
+2019-12-16 12:53:37 INFO : Page is still loading
+2019-12-16 12:53:37 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:53:38 INFO : Page is still loading
+2019-12-16 12:53:38 INFO : Page is still loading
+2019-12-16 12:53:38 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:53:38 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:53:38 INFO : Page is still loading
+2019-12-16 12:53:38 INFO : Page is still loading
+2019-12-16 12:53:38 INFO : Title is Log in to continue - Log in with Atlassian account
+2019-12-16 12:53:39 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:53:39 INFO : **************************************************************************************************
+2019-12-16 12:55:40 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:55:40 INFO : **************************************************************************************************
+2019-12-16 12:55:43 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:55:46 INFO : Page is still loading
+2019-12-16 12:55:46 INFO : Page is still loading
+2019-12-16 12:55:46 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:55:46 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:55:46 INFO : Page is still loading
+2019-12-16 12:55:48 INFO : Page is still loading
+2019-12-16 12:55:48 INFO : Page is still loading
+2019-12-16 12:55:48 INFO : Page is still loading
+2019-12-16 12:55:48 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:55:48 INFO : Clicked on element: By.id: user
+2019-12-16 12:55:49 INFO : Clicked on element: By.id: login
+2019-12-16 12:55:49 INFO : Page is still loading
+2019-12-16 12:55:49 INFO : Page is still loading
+2019-12-16 12:55:52 INFO : Page is still loading
+2019-12-16 12:55:53 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:55:53 INFO : Page is still loading
+2019-12-16 12:55:53 INFO : Page is still loading
+2019-12-16 12:55:53 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:55:53 INFO : Page is still loading
+2019-12-16 12:55:53 INFO : Page is still loading
+2019-12-16 12:55:53 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:55:54 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:55:54 INFO : Page is still loading
+2019-12-16 12:55:54 INFO : Page is still loading
+2019-12-16 12:55:54 INFO : Title is Log in to continue - Log in with Atlassian account
+2019-12-16 12:55:55 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:55:55 INFO : **************************************************************************************************
+2019-12-16 12:56:26 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:56:26 INFO : **************************************************************************************************
+2019-12-16 12:56:28 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:56:31 INFO : Page is still loading
+2019-12-16 12:56:31 INFO : Page is still loading
+2019-12-16 12:56:31 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:56:31 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:56:31 INFO : Page is still loading
+2019-12-16 12:56:33 INFO : Page is still loading
+2019-12-16 12:56:33 INFO : Page is still loading
+2019-12-16 12:56:33 INFO : Page is still loading
+2019-12-16 12:56:33 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:56:34 INFO : Clicked on element: By.id: user
+2019-12-16 12:56:34 INFO : Clicked on element: By.id: login
+2019-12-16 12:56:34 INFO : Page is still loading
+2019-12-16 12:56:35 INFO : Page is still loading
+2019-12-16 12:56:38 INFO : Page is still loading
+2019-12-16 12:56:38 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:56:38 INFO : Page is still loading
+2019-12-16 12:56:38 INFO : Page is still loading
+2019-12-16 12:56:38 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:56:38 INFO : Page is still loading
+2019-12-16 12:56:39 INFO : Page is still loading
+2019-12-16 12:56:39 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:56:39 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:57:29 INFO : Page is still loading
+2019-12-16 12:57:29 INFO : Page is still loading
+2019-12-16 12:57:29 INFO : Title is Create Your Board | Trello
+2019-12-16 12:57:29 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:57:29 INFO : **************************************************************************************************
+2019-12-16 12:59:21 INFO : Starting Scenario Create DashBoard
+2019-12-16 12:59:21 INFO : **************************************************************************************************
+2019-12-16 12:59:24 INFO : Loading the URL:https://trello.com/
+2019-12-16 12:59:27 INFO : Page is still loading
+2019-12-16 12:59:27 INFO : Page is still loading
+2019-12-16 12:59:27 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 12:59:27 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 12:59:27 INFO : Page is still loading
+2019-12-16 12:59:29 INFO : Page is still loading
+2019-12-16 12:59:29 INFO : Page is still loading
+2019-12-16 12:59:29 INFO : Page is still loading
+2019-12-16 12:59:29 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 12:59:29 INFO : Clicked on element: By.id: user
+2019-12-16 12:59:30 INFO : Clicked on element: By.id: login
+2019-12-16 12:59:30 INFO : Page is still loading
+2019-12-16 12:59:30 INFO : Page is still loading
+2019-12-16 12:59:34 INFO : Page is still loading
+2019-12-16 12:59:34 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 12:59:34 INFO : Page is still loading
+2019-12-16 12:59:34 INFO : Page is still loading
+2019-12-16 12:59:34 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 12:59:35 INFO : Page is still loading
+2019-12-16 12:59:35 INFO : Page is still loading
+2019-12-16 12:59:35 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 12:59:35 INFO : Clicked on element: By.id: login-submit
+2019-12-16 12:59:40 INFO : Page is still loading
+2019-12-16 12:59:47 INFO : Page is still loading
+2019-12-16 12:59:47 INFO : Title is Create Your Board | Trello
+2019-12-16 12:59:47 INFO : Page is still loading
+2019-12-16 12:59:47 INFO : Page is still loading
+2019-12-16 12:59:47 INFO : Waiting until the elements specified by By.xpath: //*[@id='content']/div/div/div/div[2]/div/div[2]/div/div/input are present
+2019-12-16 12:59:47 INFO : Clicked on element: By.xpath: //*[@id='content']/div/div/div/div[2]/div/div[2]/div/div/input
+2019-12-16 12:59:48 INFO : Page is still loading
+2019-12-16 12:59:48 INFO : Page is still loading
+2019-12-16 12:59:48 INFO : Waiting until the elements specified by By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/button are present
+2019-12-16 12:59:48 INFO : Clicked on element: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/button
+2019-12-16 12:59:48 INFO : Page is still loading
+2019-12-16 12:59:48 INFO : Page is still loading
+2019-12-16 12:59:48 INFO : Waiting until the elements specified by By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/div/input[1] are present
+2019-12-16 12:59:48 INFO : Clicked on element: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/div/input[1]
+2019-12-16 12:59:48 INFO : Clicked on element: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/div/input[2]
+2019-12-16 12:59:49 INFO : Clicked on element: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/div/input[1]
+2019-12-16 12:59:49 INFO : Page is still loading
+2019-12-16 12:59:49 INFO : Page is still loading
+2019-12-16 12:59:49 INFO : Waiting until the elements specified by By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/button are present
+2019-12-16 12:59:49 INFO : Clicked on element: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/button
+2019-12-16 12:59:49 INFO : Page is still loading
+2019-12-16 12:59:49 INFO : Page is still loading
+2019-12-16 12:59:49 INFO : Waiting until the elements specified by By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/button are present
+2019-12-16 12:59:49 INFO : Clicked on element: By.xpath: //*[@id="content"]/div/div/div/div[2]/div/div[2]/div/button
+2019-12-16 12:59:49 INFO : Ending Scenario Create DashBoard
+2019-12-16 12:59:49 INFO : **************************************************************************************************
+2019-12-16 13:15:18 INFO : Starting Scenario Create DashBoard if there is no dashboards available to the user
+2019-12-16 13:15:18 INFO : **************************************************************************************************
+2019-12-16 13:15:21 INFO : Loading the URL:https://trello.com/
+2019-12-16 13:15:24 INFO : Page is still loading
+2019-12-16 13:15:24 INFO : Page is still loading
+2019-12-16 13:15:24 INFO : Waiting until the elements specified by By.xpath: /html/body/header/nav/div[2]/a[1] are present
+2019-12-16 13:15:25 INFO : Clicked on element: By.xpath: /html/body/header/nav/div[2]/a[1]
+2019-12-16 13:15:25 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Page is still loading
+2019-12-16 13:15:26 INFO : Waiting until the elements specified by By.id: user are present
+2019-12-16 13:15:27 INFO : Clicked on element: By.id: user
+2019-12-16 13:15:27 INFO : Clicked on element: By.id: login
+2019-12-16 13:15:27 INFO : Page is still loading
+2019-12-16 13:15:28 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Clicked on element: By.xpath: //*[@id='login-submit']/span/span/span
+2019-12-16 13:15:31 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Page is still loading
+2019-12-16 13:15:31 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 13:15:32 INFO : Page is still loading
+2019-12-16 13:15:32 INFO : Page is still loading
+2019-12-16 13:15:32 INFO : Waiting until the elements specified by By.id: login-submit are present
+2019-12-16 13:15:32 INFO : Clicked on element: By.id: login-submit
+2019-12-16 13:15:37 INFO : Page is still loading
+2019-12-16 13:15:45 INFO : Page is still loading
+2019-12-16 13:15:45 INFO : Title is Boards | Trello
+2019-12-16 13:15:46 INFO : Ending Scenario Create DashBoard if there is no dashboards available to the user
+2019-12-16 13:15:46 INFO : **************************************************************************************************
+2019-12-16 13:15:46 INFO : Starting Scenario verify signin page
+2019-12-16 13:15:46 INFO : **************************************************************************************************
+2019-12-16 13:15:47 INFO : Loading the URL:https://trello.com/
+2019-12-16 13:15:51 INFO : Page is still loading
+2019-12-16 13:15:51 INFO : Page is still loading
+2019-12-16 13:15:51 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 13:15:53 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 13:15:53 INFO : Page is still loading
+2019-12-16 13:15:53 INFO : Page is still loading
+2019-12-16 13:15:54 INFO : Ending Scenario verify signin page
+2019-12-16 13:15:54 INFO : **************************************************************************************************
+2019-12-16 13:15:54 INFO : Starting Scenario Create User and Dashboard
+2019-12-16 13:15:54 INFO : **************************************************************************************************
+2019-12-16 13:15:55 INFO : Loading the URL:https://trello.com/
+2019-12-16 13:15:58 INFO : Page is still loading
+2019-12-16 13:15:58 INFO : Page is still loading
+2019-12-16 13:15:58 INFO : Waiting until the elements specified by By.xpath: //html/body/header/nav/div[2]/a[2] are present
+2019-12-16 13:16:01 INFO : Clicked on element: By.xpath: //html/body/header/nav/div[2]/a[2]
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Waiting until the elements specified by By.id: email are present
+2019-12-16 13:16:01 INFO : Clicked on element: By.id: email
+2019-12-16 13:16:01 INFO : Waiting until the elements specified by By.id: signup are present
+2019-12-16 13:16:01 INFO : Clicked on element: By.id: signup
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Page is still loading
+2019-12-16 13:16:01 INFO : Waiting until the elements specified by By.id: password are present
+2019-12-16 13:16:07 INFO : Clicked on element: By.id: password
+2019-12-16 13:16:08 INFO : Waiting until the elements specified by By.id: signup-submit are present
+2019-12-16 13:16:08 INFO : Clicked on element: By.id: signup-submit
+2019-12-16 13:16:08 INFO : Page is still loading
+2019-12-16 13:16:08 INFO : Page is still loading
+2019-12-16 13:16:08 INFO : Title is Sign up - Log in with Atlassian account
+2019-12-16 13:16:09 INFO : Ending Scenario Create User and Dashboard
+2019-12-16 13:16:09 INFO : **************************************************************************************************

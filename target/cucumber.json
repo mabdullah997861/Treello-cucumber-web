@@ -1,0 +1,627 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with Existing User",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3591558095,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Trello Home Page \"https://trello.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trello.com/",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePage.user_is_on_Trello_Home_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300399763,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Clicks on Sign In Button",
+            "match": {
+              "location": "HomePage.user_Clicks_on_Sign_In_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1921977550,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User on SignIn Page with title \"Log in to Trello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in to Trello",
+                  "offset": 32
+                }
+              ],
+              "location": "SignInPage.user_on_SignIn_Page_with_title(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5535557136,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters credentials as \"mabdullah997861@gmail.com\" and \"Password@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mabdullah997861@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Password@123",
+                  "offset": 60
+                }
+              ],
+              "location": "SignInPage.user_enters_credentials_as_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5226177139,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "SignInPage.user_clicks_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2324427033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getDriver(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Create DashBoard if there is no dashboards available to the user",
+        "description": "",
+        "id": "trello-create-dashboard-for-the-first-time;create-dashboard-if-there-is-no-dashboards-available-to-the-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 685488076,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.executeAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7686674118,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)\n\tat stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)\n\tat ✽.Given User is on Dashboard page with title \"Create Your Board | Trello\"(TrelloCreateDashBoard.feature:14)\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "User is on Dashboard page with title \"Create Your Board | Trello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create Your Board | Trello",
+                  "offset": 38
+                }
+              ],
+              "location": "DashBoardPage.user_is_on_Dashboard_page_with_title(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User enters \"Holiday planning\" in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Holiday planning",
+                  "offset": 13
+                }
+              ],
+              "location": "DashBoardPage.user_enters_in_the_title(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User enters \"\u003cThings to do list1\u003e\" \"\u003cThings to do list2\u003e\" \"\u003cThings to do list3\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cThings to do list1\u003e",
+                  "offset": 13
+                },
+                {
+                  "val": "\u003cThings to do list2\u003e",
+                  "offset": 36
+                },
+                {
+                  "val": "\u003cThings to do list3\u003e",
+                  "offset": 59
+                }
+              ],
+              "location": "DashBoardPage.user_enters(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User gets on Trello Dashboard",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TrelloSmokeTest"
+          },
+          {
+            "line": 1,
+            "name": "@TrelloRegressionTests"
+          }
+        ]
+      }
+    ],
+    "name": "Trello Create Dashboard For the first time",
+    "description": "",
+    "id": "trello-create-dashboard-for-the-first-time",
+    "keyword": "Feature",
+    "uri": "TrelloCreateDashBoard.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TrelloSmokeTest"
+      },
+      {
+        "line": 1,
+        "name": "@TrelloRegressionTests"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1510507238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getDriver(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify signin page",
+        "description": "",
+        "id": "trello-create-user-login;verify-signin-page",
+        "after": [
+          {
+            "result": {
+              "duration": 284637352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.executeAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3336249486,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Trello Home Page \"https://trello.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trello.com/",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePage.user_is_on_Trello_Home_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2763797086,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click on Create User Button",
+            "match": {
+              "location": "HomePage.user_Click_on_Create_User_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19538647,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User on SignIn Page with title \"Create a Trello Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create a Trello Account",
+                  "offset": 32
+                }
+              ],
+              "location": "SignInPage.user_on_SignIn_Page_with_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TrelloSmokeTest"
+          },
+          {
+            "line": 4,
+            "name": "@TrelloRegressionTests"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1476475607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getDriver(Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Create User and Dashboard",
+        "description": "",
+        "id": "trello-create-user-login;create-user-and-dashboard;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1314781879,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.executeAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2946540948,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Trello Home Page \"https://trello.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trello.com/",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePage.user_is_on_Trello_Home_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2437997378,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Click on Create User Button",
+            "match": {
+              "location": "HomePage.user_Click_on_Create_User_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24606744,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User on Create User Page with title \"Create a Trello Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create a Trello Account",
+                  "offset": 37
+                }
+              ],
+              "location": "CreateUserPage.user_on_Create_User_Page_with_title(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468424406,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"testtrello\" and \"@gmail.com\" in the email text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtrello",
+                  "offset": 13
+                },
+                {
+                  "val": "@gmail.com",
+                  "offset": 30
+                }
+              ],
+              "location": "CreateUserPage.user_enters_and_in_the_email_text_box(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284082310,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks continue button",
+            "match": {
+              "location": "CreateUserPage.user_clicks_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6478006550,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 22
+                }
+              ],
+              "location": "CreateUserPage.user_enters_Password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152292250,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Signup Button",
+            "match": {
+              "location": "CreateUserPage.user_clicks_on_Signup_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179636693,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)\n\tat stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)\n\tat ✽.And User is on Dashboard page with title \"Create Your Board | Trello\"(TrelloCreateUser.feature:19)\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "User is on Dashboard page with title \"Create Your Board | Trello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create Your Board | Trello",
+                  "offset": 38
+                }
+              ],
+              "location": "DashBoardPage.user_is_on_Dashboard_page_with_title(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User enters \"Holiday planning\" in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Holiday planning",
+                  "offset": 13
+                }
+              ],
+              "location": "DashBoardPage.user_enters_in_the_title(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User enters \"\u003cThings to do list1\u003e\" \"\u003cThings to do list2\u003e\" \"\u003cThings to do list3\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cThings to do list1\u003e",
+                  "offset": 13
+                },
+                {
+                  "val": "\u003cThings to do list2\u003e",
+                  "offset": 36
+                },
+                {
+                  "val": "\u003cThings to do list3\u003e",
+                  "offset": 59
+                }
+              ],
+              "location": "DashBoardPage.user_enters(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User clicks next button",
+            "match": {
+              "location": "DashBoardPage.user_clicks_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "User gets on Trello Dashboard",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trello Create User Login",
+    "description": "",
+    "id": "trello-create-user-login",
+    "keyword": "Feature",
+    "uri": "TrelloCreateUser.feature"
+  }
+]

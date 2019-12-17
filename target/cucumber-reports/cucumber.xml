@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.949834">
+<testcase classname="Trello Create Dashboard For the first time" name="Create DashBoard if there is no dashboards available to the user" time="27.272259">
+<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)&#10;&#9;at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)&#10;&#9;at ✽.Given User is on Dashboard page with title &quot;Create Your Board | Trello&quot;(TrelloCreateDashBoard.feature:14)&#10;"><![CDATA[Given User is on Trello Home Page "https://trello.com/".....................passed
+And User Clicks on Sign In Button...........................................passed
+And User on SignIn Page with title "Log in to Trello".......................passed
+And User enters credentials as "mabdullah997861@gmail.com" and "Password@123".passed
+And User clicks Login button................................................passed
+Given User is on Dashboard page with title "Create Your Board | Trello".....failed
+And User enters "Holiday planning" in the title.............................skipped
+And User clicks next button.................................................skipped
+When User enters "<Things to do list1>" "<Things to do list2>" "<Things to do list3>".skipped
+And User clicks next button.................................................skipped
+And User clicks next button.................................................skipped
+And User clicks next button.................................................skipped
+And User gets on Trello Dashboard...........................................undefined
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)
+	at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)
+	at ✽.Given User is on Dashboard page with title "Create Your Board | Trello"(TrelloCreateDashBoard.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Trello Create User Login" name="verify signin page" time="7.91473">
+<system-out><![CDATA[Given User is on Trello Home Page "https://trello.com/".....................passed
+When User Click on Create User Button.......................................passed
+Then User on SignIn Page with title "Create a Trello Account"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Trello Create User Login" name="Create User and Dashboard" time="15.762845">
+<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)&#10;&#9;at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)&#10;&#9;at ✽.And User is on Dashboard page with title &quot;Create Your Board | Trello&quot;(TrelloCreateUser.feature:19)&#10;"><![CDATA[Given User is on Trello Home Page "https://trello.com/".....................passed
+And User Click on Create User Button........................................passed
+And User on Create User Page with title "Create a Trello Account"...........passed
+And User enters "testtrello" and "@gmail.com" in the email text box.........passed
+And User clicks continue button.............................................passed
+And User enters Password "password".........................................passed
+And User clicks on Signup Button............................................passed
+And User is on Dashboard page with title "Create Your Board | Trello".......failed
+And User enters "Holiday planning" in the title.............................skipped
+And User clicks next button.................................................skipped
+When User enters "<Things to do list1>" "<Things to do list2>" "<Things to do list3>".skipped
+And User clicks next button.................................................skipped
+And User clicks next button.................................................skipped
+And User clicks next button.................................................skipped
+Then User gets on Trello Dashboard..........................................undefined
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at pageObject.DashBoardPagePO.verifyPage(DashBoardPagePO.java:43)
+	at stepDefinition.DashBoardPage.user_is_on_Dashboard_page_with_title(DashBoardPage.java:35)
+	at ✽.And User is on Dashboard page with title "Create Your Board | Trello"(TrelloCreateUser.feature:19)
+]]></failure>
+</testcase>
+</testsuite>
